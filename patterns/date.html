@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./pattern2.html"
+    <label for="Email">Email:</label>
+    <input type="Email"id="email" name="email" pattern="[a-z\d]+@gmail.com" title="Enter correct format" required><br><br>
+    <label for="phnno">phnno:</label>
+    <input type="tel" id="phnno" name="phnno" pattern="[+][9][1] [6-9][0-9]{9}" title="Enter correct format"required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="text" id="dob" name="dob" 
+    pattern="(19|20)\d\d-(0[1-9]|1[0-2])-([0][1-9]|[1 2][0-9]|3[0-1])"title="enter the correct format" placeholder="yy-mm-dd"><br><br>
+    <input type="submit" value="submit">
+</body>
+</html>
